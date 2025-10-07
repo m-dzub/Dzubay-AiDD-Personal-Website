@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mischa Dzubay — Personal Website</title>
+    <meta name="description" content="Short intro about you. Update in index.html head.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand"><span class="dot"></span> <span>Mischa Dzubay</span></div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel hero">
+        <div>
+          <h1>Hi, I'm Mischa Dzubay</h1>
+          <p class="lead">One line about who you are (e.g., "Software Engineer focused on web performance and UX.")</p>
+          <div class="btn-row" style="margin-top: 16px;">
+            <a class="btn primary" href="projects.html">View Projects</a>
+            <a class="btn" href="resume.html">See Resume</a>
+          </div>
+        </div>
+        <div style="display:flex; justify-content:center;">
+          <img class="avatar" src="images/MSIS_Headshot_2025.jpg" alt="Portrait of Mischa Dzubay">
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>About this site</h2>
+        <p>Replace all placeholder text with your information. Update your portrait at <code>images/profile.jpg</code>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>© <span id="year"></span> Mischa Dzubay</div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+

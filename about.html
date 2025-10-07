@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About — Mischa Dzubay</title>
+    <meta name="description" content="About Your Name: background, interests, goals.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand"><span class="dot"></span> <span>Mischa Dzubay</span></div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel">
+        <div class="grid">
+          <div class="col-6">
+            <h1>About Me</h1>
+            <p>Write a detailed biography here. Cover your background, interests, and goals. Mention what motivates you and the problems you like to solve. Keep paragraphs short for readability.</p>
+            <p>Add a few personal notes: hobbies, communities you contribute to, and any talks or articles you've published.</p>
+          </div>
+          <div class="col-6" style="display:flex; justify-content:center; align-items:flex-start;">
+            <figure style="text-align:center;">
+              <img class="avatar" src="images/MSIS_Headshot_2025.jpg" alt="Portrait of Mischa Dzubay">
+              <figcaption style="color:var(--color-text-dim); margin-top:8px;">Photo: <code>images/MSIS_Headshot_2025.jpg</code></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Goals</h2>
+        <ul>
+          <li>Short-term goal: <em>e.g., build an open-source tool used by 1k+ devs</em></li>
+          <li>Mid-term goal: <em>e.g., lead a small, high-impact engineering team</em></li>
+          <li>Long-term goal: <em>e.g., start a developer-focused product company</em></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>© <span id="year"></span> Mischa Dzubay</div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+

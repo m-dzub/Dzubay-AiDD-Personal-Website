@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects — Mischa Dzubay</title>
+    <meta name="description" content="Projects by Your Name.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand"><span class="dot"></span> <span>Mischa Dzubay</span></div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel">
+        <h1>Projects</h1>
+        <div class="grid">
+          <article class="col-6 project-card">
+            <img src="images/project1.jpg" alt="Screenshot of Project One">
+            <div>
+              <h2>Project One</h2>
+              <p>Short description of what this project does and why it's interesting. Mention your role, tech stack, and outcomes.</p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="btn-row" style="margin-top: 8px;">
+                <a class="btn primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn" href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-6 project-card">
+            <img src="images/project2.jpg" alt="Screenshot of Project Two">
+            <div>
+              <h2>Project Two</h2>
+              <p>Short description of this project. Include the problem, your approach, and the impact or results.</p>
+              <div class="tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Next.js</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <div class="btn-row" style="margin-top: 8px;">
+                <a class="btn primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn" href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>© <span id="year"></span> Mischa Dzubay</div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+
