@@ -52,3 +52,34 @@ index.html image now images/MSIS_Headshot_2025.jpg
 about.html image now images/MSIS_Headshot_2025.jpg
 Made resume.html a full-screen PDF viewer of images/Dzubay_Mischa_MSIS.pdf (no panel/sections).
 NOTES2: I accepted the changes, and then changed the green color 
+
+PROMPT3:I want you to add in two projects to the projects.html file. one for my FCRE website project where I want you to Add the screenshot I attached, title it "FCRE Website Project", and then give this link below the on for the link that says "view project here"
+for my second project, I want you to title it "Rule Based Agent", Add the second screenshot I attached and add a small header above it labeled "Process Flow", and then add this link below it https://console.dialogflow.com/api-client/demo/embedded/5cca3a92-7823-
+471c-ab0f-443f1f0e1c35 give this link below the on for the link that says "view project here"
+
+OUTPUT3: Actions taken
+Edited projects.html to add two project cards inside the existing .grid:
+FCRE Website Project
+Title: "FCRE Website Project"
+Tags: HTML, CSS
+Image placeholder: images/fcre_screenshot.png
+Button: "view project here" (href currently #; replace with the live FCRE link)
+Rule Based Agent
+Title: "Rule Based Agent"
+Tags: Dialogflow, Agent
+Small header above image: "Process Flow"
+Image placeholder: images/rule_agent_screenshot.png
+Button: "view project here" linking to the Dialogflow demo: https://console.dialogflow.com/api-client/demo/embedded/5cca3a92-7823-471c-ab0f-443f1f0e1c35
+
+NOTES3: I accepted everything and then had to fix the link for my first project. 
+
+PROMPT4: ow in the about me section add this under about me "I am passionate about driving sustainable corporate innovation with AI. Deeply analytical and committed to integrity. Currently getting my M.S. in Information Systems at the Kelley School of Business this summer. I am seeking tech role internships for the summer of 2026, with the knowledge I have and the skills I am in the process of getting."
+
+OUTPUT4:Summary of change
+
+File edited: about.html
+Inserted the paragraph exactly where you requested under "About Me": "I am passionate about driving sustainable corporate innovation with AI. Deeply analytical and committed to integrity. Currently getting my M.S. in Information Systems at the Kelley School of Business this summer. I am seeking tech role internships for the summer of 2026, with the knowledge I have and the skills I am in the process of getting."
+
+NOTES4: I accepted the changes
+
+REFELCTION: AI was extremely helpful in making this website. It saved me a lot of time creating the CSS, the page layout, the places to put the images and with the contact form. With these, I could go into an HTML file and write what I wanted without any setup. For my PROMT4, I asked it to input a message I typed out for me and it did it even faster! Something that it had trouble with was taking attached images and then then populating them. To all it to input the pictures, I added them to images subdirectory and then told them to link them where I wanted. This saved me some time because I did not have to find where I wanted to put them, but It didn't save a substantial amount of time so I just did the rest by hand. 
