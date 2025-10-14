@@ -87,3 +87,5 @@ REFELCTION: AI was extremely helpful in making this website. It saved me a lot o
 PROMPT5: Please convert my personal website to use FLASK. Create an app.py file ad update everything else accordingly. 
 
 SUMMARY5: Now I'll add the Flask app and templates, and copy references to your existing images and CSS into a static/ layout. Expected outcome: new files created and templates wired to static files.Next I'll add the Jinja templates in a new templates/ folder based on your HTML files, converting links to use url_for for static files and routes. I'll create templates/base.html and page templates.I'll update the Flask app to serve static files from the project root and fix template static paths, then add the remaining templates (thanks and resume). Expected outcome: app serves CSS at style.css and images at /images/..., and templates reference those paths.
+
+NOTES5: I accepted. I had to ask it to convert a few more files in order to get it all working
