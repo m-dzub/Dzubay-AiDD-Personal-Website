@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Projects — Mischa Dzubay{% endblock %}
+
+{% block content %}
+<main class="container">
+  <section class="panel">
+    <h1>Projects</h1>
+    <div class="grid">
+      <div class="col-6 project-card">
+        <h3>FCRE Website Project</h3>
+        <div class="tags" style="margin-bottom: 6px;">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+        <img src="{{ url_for('static', filename='images/FCRE.png') }}" alt="FCRE Website screenshot" title="FCRE Website screenshot">
+        <div class="btn-row">
+          <a class="btn primary" href="https://mdzubay.pages.iu.edu/FCRE3/index.html" target="_blank" rel="noopener">view project here</a>
+        </div>
+      </div>
+
+      <div class="col-6 project-card">
+        <h3>Rule Based Agent</h3>
+        <div class="tags" style="margin-bottom: 6px;">
+          <span class="tag">Dialogflow</span>
+          <span class="tag">Agent</span>
+        </div>
+        <h4 style="margin: 0 0 8px 0; font-size: 16px;">Process Flow</h4>
+        <img src="{{ url_for('static', filename='images/Ruled based agent.png') }}" alt="Rule Based Agent process flow" title="Rule Based Agent process flow">
+        <div class="btn-row">
+          <a class="btn primary" href="https://console.dialogflow.com/api-client/demo/embedded/5cca3a92-7823-471c-ab0f-443f1f0e1c35" target="_blank" rel="noopener">view project here</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock %}
